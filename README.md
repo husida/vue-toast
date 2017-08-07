@@ -1,6 +1,6 @@
 # vue-toast
 
-> A Vue.js project
+> A Vue.js plugin
 
 ## Build Setup
 
@@ -16,5 +16,10 @@ npm run build
 ```
 
 ## toast-use
+```
+import toast from 'hu-vue-toast'
+Vue.use(toast)
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+this.$toast('哈哈哈')
+this.$toast('哈哈哈','top')// 'top','center','bottom'
+```
